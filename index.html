@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>रक्षा बंधन की शुभकामनाएँ</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi:ital@0;1&display=swap');
+       
+        body {
+            margin: 0;
+            font-family: 'Tiro Devanagari Hindi', serif;
+            background: #3a1d1d;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px 15px;
+            box-sizing: border-box;
+            overflow-x: hidden;
+        }
+        
+        #fireworks-canvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+        }
+
+        .container {
+            position: relative;
+            z-index: 2;
+            background: #4a2c2a;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            max-width: 380px;
+            width: 100%;
+            border: 2px solid #a87932;
+        }
+
+        .glowing-image {
+            max-width: 90%;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            border: 3px solid #ffd700;
+            box-shadow: 0 0 10px #ffd700, 0 0 20px #ffae00, 0 0 35px #ff8c00;
+        }
+
+        #greeting-message {
+            display: none;
+            font-size: 1.8em;
+            color: #f7e086;
+            margin-bottom: 15px;
+            animation: fadeInZoom 1.5s ease-in-out;
+            line-height: 1.4;
+        }
+        
+        #greeting-message strong {
+            color: #ffffff;
+            font-weight: bold;
+        }
+        
+        h1 {
+            color: #ffc107;
+            font-size: 2.8em;
+            margin: 0;
+            text-shadow: 0 0 8px rgba(255, 193, 7, 0.7);
+        }
+
+        .subtitle {
+            font-size: 1.1em;
+            color: #f5f5f5;
+            margin-top: 10px;
+            margin-bottom: 25px;
+        }
+        
+        .input-label {
+            color: #e0e0e0;
+            margin-bottom: 8px;
+            display: block;
+            font-size: 1em;
+        }
+        
+        #nameInput {
+            width: calc(100% - 24px);
+            padding: 12px;
+            font-size: 1.1em;
+            font-family: 'Tiro Devanagari Hindi', serif;
+            border: 1px solid #c2a16b;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+            background: #f0e6d2;
+            color: #333;
+        }
+
+        #generateBtn {
+            background: linear-gradient(45deg, #ff9800, #f57c00);
+            color: white;
+            padding: 14px 25px;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.2em;
+            font-family: inherit;
+            cursor: pointer;
+            width: 100%;
+            box-sizing: border-box;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            transition: transform 0.2s;
+        }
+        #generateBtn:hover {
+            transform: scale(1.03);
+        }/* --- शेयर करने का एरिया (शुरुआत में छिपा हुआ) --- */
+        #share-area {
+            display: none;
+            margin-top: 20px;
+        }
+        
+        #generated-link {
+            width: calc(100% - 24px);
+            padding: 10px;
+            font-size: 0.9em;
+            border-radius: 8px;
+            border: 1px solid #c2a16b;
+            background-color: #f0e6d2;
+            color: #333;
+            text-align: center;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+        
+        #whatsapp-share-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(45deg, #25D366, #128C7E);
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.2em;
+            font-family: inherit;
+            cursor: pointer;
+            width: 100%;
+            box-sizing: border-box;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            transition: transform 0.2s;
+        }
+        #whatsapp-share-btn:hover {
+            transform: scale(1.03);
+        }
+        #whatsapp-share-btn svg {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+        }
+        
+        @keyframes fadeInZoom {
+            0% { opacity: 0; transform: scale(0.8); }
+            100% { opacity: 1; transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+	
+    <canvas id="fireworks-canvas"></canvas>
+
+    <div class="container">
+    <script type="text/javascript">
+	atOptions = {
+		'key' : 'b4d640d6e0edc8dadeb238ccbaa0f5f6',
+		'format' : 'iframe',
+		'height' : 50,
+		'width' : 320,
+		'params' : {}
+	};
+	</script>
+<script type="text/javascript" src="//www.highperformanceformat.com/b4d640d6e0edc8dadeb238ccbaa0f5f6/invoke.js"></script>
+        <div id="greeting-message"></div>
+        <img src="Rakhi.jpg" alt="Raksha Bandhan" class="glowing-image">
+
+        <h1>रक्षा बंधन</h1>
+        <p class="subtitle">आपको और आपके परिवार को इस पवित्र पर्व की हार्दिक शुभकामनाएँ!</p>
+
+        <!-- स्टेप 1: नाम डालने का एरिया -->
+        <div id="create-area">
+            <label for="nameInput" class="input-label">आपका शुभ नाम:</label>
+            <input type="text" id="nameInput" placeholder="यहाँ अपना नाम लिखें...">
+            <button id="generateBtn">✨ शुभकामना बनाएँ ✨</button>
+        </div>
+        <script type="text/javascript">
+	atOptions = {
+		'key' : 'b4d640d6e0edc8dadeb238ccbaa0f5f6',
+		'format' : 'iframe',
+		'height' : 50,
+		'width' : 320,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//www.highperformanceformat.com/b4d640d6e0edc8dadeb238ccbaa0f5f6/invoke.js"></script>
+        <!-- स्टेप 2: लिंक और शेयर बटन का एरिया (छिपा हुआ) -->
+        <div id="share-area">
+            <label class="input-label">आपका लिंक तैयार है:</label>
+            <input type="text" id="generated-link" readonly>
+            <button id="whatsapp-share-btn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.61 15.31 3.48 16.76L2 22L7.45 20.52C8.85 21.32 10.41 21.82 12.04 21.82C17.5 21.82 21.95 17.37 21.95 11.91C21.95 6.45 17.5 2 12.04 2M12.04 20.13C10.59 20.13 9.19 19.66 8 18.81L7.56 18.54L4.31 19.38L5.17 16.21L4.87 15.75C3.94 14.41 3.48 12.91 3.48 11.91C3.48 7.31 7.37 3.42 12.04 3.42C16.71 3.42 20.6 7.31 20.6 11.91C20.6 16.52 16.71 20.13 12.04 20.13M17.41 14.26C17.15 14.81 16.13 15.34 15.63 15.39C15.13 15.44 14.53 15.46 14.18 15.31C13.83 15.16 13.04 14.91 12.11 14.06C10.98 13.03 10.29 11.82 10.14 11.56C9.99 11.31 9.88 11.16 9.73 10.96C9.58 10.76 9.47 10.63 9.32 10.41C9.17 10.18 9.06 9.98 8.91 9.73C8.75 9.48 8.6 9.26 8.6 9.01C8.6 8.76 8.69 8.54 8.84 8.39C8.99 8.24 9.18 8.13 9.38 8.13H9.58C9.75 8.13 9.9 8.18 10.04 8.43C10.19 8.68 10.51 9.45 10.58 9.57C10.66 9.7 10.71 9.83 10.66 9.98C10.61 10.13 10.58 10.23 10.48 10.36C10.38 10.48 10.28 10.58 10.18 10.68C10.08 10.78 9.98 10.88 9.89 10.96C9.81 11.03 9.73 11.11 9.83 11.26C9.93 11.41 10.36 12.06 10.96 12.61C11.71 13.31 12.48 13.66 12.78 13.81C13.08 13.96 13.33 13.94 13.53 13.81C13.73 13.69 14.04 13.28 14.21 13.01C14.39 12.73 14.64 12.68 14.89 12.78C15.14 12.88 16.21 13.41 16.46 13.53C16.71 13.66 16.89 13.73 16.94 13.86C16.99 13.98 16.99 14.41 17.41 14.26Z"></path></svg>
+            
+            WhatsApp पर शेयर करें
+            </button>
+            
+        </div>
+    </div>
+    
+    <script>
+        // --- विशिंग स्क्रिप्ट लॉजिक ---
+        window.onload = function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const senderName = urlParams.get('name');
+
+            if (senderName) {
+                const greetingDiv = document.getElementById('greeting-message');
+                greetingDiv.innerHTML = `<strong>${decodeURIComponent(senderName)}</strong> की ओर से <br> रक्षा बंधन की ढेर सारी शुभकामनाएँ!`;
+                greetingDiv.style.display = 'block';
+            }
+        };
+        
+        document.getElementById('generateBtn').onclick = function() {
+            const name = document.getElementById('nameInput').value.trim();
+            if (name === "") {
+                alert("कृपया अपना नाम लिखें!");
+                return;
+            }
+
+            const baseUrl = window.location.origin + window.location.pathname;
+            const shareableLink = `${baseUrl}?name=${encodeURIComponent(name)}`;
+            // व्हाट्सएप पर शेयर करने के लिए मैसेज तैयार करें
+            const whatsappMessage = `*${name}* की तरफ से आपको और आपके परिवार को रक्षा बंधन की हार्दिक शुभकामनाएँ! 🏮✨\n\nअपनी शुभकामनाएँ भेजने के लिए नीचे दिए गए लिंक पर क्लिक करें:\n\n${shareableLink}`;
+            const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(whatsappMessage)}`;
+
+            // UI को अपडेट करें
+            document.getElementById('create-area').style.display = 'none';
+            document.getElementById('share-area').style.display = 'block';
+            document.getElementById('generated-link').value = shareableLink;
+            
+            // व्हाट्सएप बटन पर क्लिक इवेंट सेट करें
+            document.getElementById('whatsapp-share-btn').onclick = function() {
+                window.open(whatsappUrl, '_blank');
+            };
+        };
+    
+        // --- फायरवर्क्स एनिमेशन स्क्रि>प्ट (यह पहले जैसा ही है) ---
+        const canvas = document.getElementById('fireworks-canvas');
+        const ctx = canvas.getContext('2d');
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+        let fireworks = [], particles = [];
+        function Firework(sx, sy, tx, ty) { this.x = sx; this.y = sy; this.sx = sx; this.sy = sy; this.tx = tx; this.ty = ty; this.distanceToTarget = Math.sqrt(Math.pow(tx - sx, 2) + Math.pow(ty - sy, 2)); this.distanceTraveled = 0; this.coordinates = []; this.coordinateCount = 3; while(this.coordinateCount--) { this.coordinates.push([this.x, this.y]); } this.angle = Math.atan2(ty - sy, tx - sx); this.speed = 2; this.acceleration = 1.05; this.brightness = Math.random() * 50 + 50; this.targetRadius = 1; }
+        Firework.prototype.update = function(index) { this.coordinates.pop(); this.coordinates.unshift([this.x, this.y]); if(this.targetRadius < 8) { this.targetRadius += 0.3; } else { this.targetRadius = 1; } this.speed *= this.acceleration; let vx = Math.cos(this.angle) * this.speed; let vy = Math.sin(this.angle) * this.speed; this.distanceTraveled = Math.sqrt(Math.pow(this.x - this.sx, 2) + Math.pow(this.y - this.sy, 2)); if(this.distanceTraveled >= this.distanceToTarget) { createParticles(this.tx, this.ty); fireworks.splice(index, 1); } else { this.x += vx; this.y += vy; } };
+        Firework.prototype.draw =function() { ctx.beginPath(); ctx.moveTo(this.coordinates[this.coordinates.length - 1][0], this.coordinates[this.coordinates.length - 1][1]); ctx.lineTo(this.x, this.y); ctx.strokeStyle = 'hsl(' + Math.random() * 360 + ', 100%, ' + this.brightness + '%)'; ctx.stroke(); };
+        function Particle(x, y) { this.x = x; this.y = y; this.coordinates = []; this.coordinateCount = 5; while(this.coordinateCount--) { this.coordinates.push([this.x, this.y]); } this.angle = Math.random() * Math.PI * 2; this.speed = Math.random() * 10 + 1; this.friction = 0.95; this.gravity = 1; this.hue = Math.random() * 360; this.brightness = Math.random() * 50 + 50; this.alpha = 1; this.decay = Math.random() * 0.015 + 0.015; }
+        Particle.prototype.update = function(index) { this.coordinates.pop(); this.coordinates.unshift([this.x, this.y]); this.speed *= this.friction; this.x += Math.cos(this.angle) * this.speed; this.y += Math.sin(this.angle) * this.speed + this.gravity; this.alpha -= this.decay; if(this.alpha <= this.decay) { particles.splice(index, 1); } };
+        Particle.prototype.draw = function() { ctx.beginPath(); ctx.moveTo(this.coordinates[this.coordinates.length - 1][0], this.coordinates[this.coordinates.length - 1][1]); ctx.lineTo(this.x, this.y); ctx.strokeStyle = 'hsla(' + this.hue + ', 100%, ' + this.brightness + '%, ' + this.alpha + ')'; ctx.stroke(); };
+        function createParticles(x, y) { let particleCount = 30; while(particleCount--) { particles.push(new Particle(x, y)); } }
+        function loop() { requestAnimationFrame(loop); ctx.globalCompositeOperation = 'destination-out'; ctx.fillStyle = 'rgba(0, 0, 0, 0.5)'; ctx.fillRect(0, 0, canvas.width, canvas.height); ctx.globalCompositeOperation = 'lighter'; let i = fireworks.length; while(i--) { fireworks[i].draw(); fireworks[i].update(i); } let j = particles.length; while(j--) { particles[j].draw(); particles[j].update(j); } if(Math.random() < 0.05) { let startX = canvas.width / 2; let startY = canvas.height; let endX = Math.random() * canvas.width; let endY = Math.random() * canvas.height / 2; fireworks.push(new Firework(startX, startY, endX, endY)); } }
+        window.addEventListener('resize', () => { canvas.width = window.innerWidth; canvas.height = window.innerHeight; });
+        loop();
+    </script>
+</body>
+</html>
